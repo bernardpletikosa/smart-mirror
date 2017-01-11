@@ -13,6 +13,7 @@ I bought/collected/borrowed the folowing things and started working.
 3. Mouse
 4. Screen (an old VGA one)
 5. [HDMI 2 VGA adapter](https://www.amazon.de/gp/product/B00ZMV7RL2/ref=oh_aui_detailpage_o01_s00?ie=UTF8&psc=1)
+6. [DHT11 sensor](https://www.adafruit.com/product/386)
 
 <img style="width:400px; height:300px;" src="pics/screen/2.jpg">
 
@@ -26,6 +27,7 @@ Also I taped it with ductupe just for good measure (and to hold all components t
 
 <img style="width:300px; height:400px;" src="pics/screen/4.jpg">
 
+
 ##Software
 
 This was the easiest thing. There is an awesome [Magic Mirror library](https://github.com/MichMich/MagicMirror) that gives you everything to start with to build your own Smart/Magic/Awesome Mirror.
@@ -37,6 +39,17 @@ After some fiddling with configurations and Github repos for different modules a
 
 <img style="width:300px; height:400px;" src="pics/screen/5.jpg">
 
+### Temperature and humidity monitoring
+
+I used [DHT11 sensor](https://www.adafruit.com/product/386) to monitor environmental (in the apartment :)) temperature and humidity.
+
+<img style="width:400px; height:350px;" src="pics/widget.jpg">
+
+Steps:
+
+1. Found the sensor on Amazon
+2. [Tutorial](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi) on how to connect everything properly.
+3. Implemented [my own module](https://github.com/bernardpletikosa/MMM-DHT-Sensor) for [Magic Mirror library](https://github.com/MichMich/MagicMirror) to show the data.
 
 ##Glass
 
@@ -71,14 +84,22 @@ Also, some elbow grease, glue and screws helps a lot.
 
 I was really happy with how it turned out.
 
-<img style="width:500px; height:700px;" src="pics/frame/front.JPG">
+<img style="width:500px; height:700px;" src="pics/frame/front.jpg">
 
-<img style="width:500px; height:700px;" src="pics/frame/back.JPG">
+<img style="width:500px; height:700px;" src="pics/frame/back.jpg">
 
-<img style="width:500px; height:700px;" src="pics/frame/side.JPG">
+<img style="width:500px; height:700px;" src="pics/frame/side.jpg">
 
-<img style="width:500px; height:500px;" src="pics/frame/6.JPG">
+<img style="width:500px; height:500px;" src="pics/frame/6.jpg">
 
 ##Final product
 
-Comming soon
+After tweeking the CSS and screen brightness this is what I've ended up with. Prety happy with the result I must say.
+
+<img style="width:600px; height:850px;" src="pics/final/dark.jpg">
+
+## TO DO
+
+* Cable management
+* Add PIR sensor
+* Improve [MMM DHT widget](https://github.com/bernardpletikosa/MMM-DHT-Sensor)
