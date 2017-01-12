@@ -74,21 +74,21 @@ So this shouldn't be a reason not to build it on your own.
 
 Even if you have no experience, with some planing, meassuring things 5 times before cutting - everything will work out great.
 
-<img style="width:400px; height:300px;" src="pics/frame/4.jpg">
+<img style="width:400px; height:300px;" src="pics/frame/4.JPG">
 <img style="width:400px; height:300px;" src="pics/frame/1.jpg">
 
 Also, some elbow grease, glue and screws helps a lot.
 
-<img style="width:400px; height:300px;" src="pics/frame/2.jpg">
-<img style="width:400px; height:300px;" src="pics/frame/3.jpg">
+<img style="width:400px; height:300px;" src="pics/frame/2.JPG">
+<img style="width:400px; height:300px;" src="pics/frame/3.JPG">
 
 I was really happy with how it turned out.
 
-<img style="width:500px; height:700px;" src="pics/frame/front.jpg">
+<img style="width:500px; height:700px;" src="pics/frame/front.JPG">
 
-<img style="width:500px; height:700px;" src="pics/frame/back.jpg">
+<img style="width:500px; height:700px;" src="pics/frame/back.JPG">
 
-<img style="width:500px; height:700px;" src="pics/frame/side.jpg">
+<img style="width:500px; height:700px;" src="pics/frame/side.JPG">
 
 <img style="width:500px; height:500px;" src="pics/frame/6.jpg">
 
